@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Smooch+Sans:wght@100..900&display=swap');
 *,
 *::before,
 *::after{
@@ -9,29 +9,35 @@
 body{
   background-color: #000;
 }
+:root{
+  --FONT-FAMILY : "Smooch Sans", serif;
+
+}
 .head-container{
   display: flex;
+  position: sticky;
 }
 .logo{
-  display: block;
-  width: 350px;
+  width: 250px;
   height: 350px;
   transform: translateY(-110px);
+  margin-left: 1rem;
+  z-index: 2000;
 }
 ul{
+  
   list-style: none;
   margin-top: 1rem;
   display: flex;
+  margin-left: 3.5rem;
   gap: 1rem;
 }
  nav a{
   text-decoration: none;
   color: #fff;
-  font-size: 0.8rem;
-  font-weight: bold;
   transition: color 0.3s ease; 
   position: relative;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font: bold 1.2rem var(--FONT-FAMILY);
   cursor: pointer;
 }
  nav a::after{
@@ -106,8 +112,10 @@ ul{
 .menu ul li a {
   color: white;
   text-decoration: none;
-  font-size: 14px;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font: 15px var(--FONT-FAMILY);
+}
+.menu ul li a:hover{
+  color: #29606b;
 }
 .menu.active{
   right: 0;
@@ -122,4 +130,82 @@ ul{
 .menu-toggle.open span:nth-child(3){
   transform: translateY(-8px)
   rotate(-45deg);
+}
+.home-page p{
+ color: #fff;
+  text-align: center;
+  font: 400 60px var(--FONT-FAMILY);
+  transform: translateY(-150px);
+  animation: fadeIN 3s ease-in 1;
+}
+.home-page pre{
+  color: #fff;
+  text-align: center;
+  font: 400 1.2rem var(--FONT-FAMILY);
+  transform: translateY(-130px);
+  animation: fadeIN 5s ease-in 1;
+}
+@keyframes fadeIN {
+  from{
+    opacity: 0;
+   } 
+   to{
+    opacity: 1;
+   }
+}
+.buttons {
+    display: flex;
+    place-content: center;
+    gap: 1.2rem;
+}
+button{
+
+  border: none;
+  background-color: rgba(102, 101, 101, 0.5);
+  padding: 1rem;
+  cursor: pointer;
+  width: 20%;
+  border-radius: 5px;
+  overflow: hidden;
+  position: relative;
+  transition: color 0.5s ease-in-out;
+  z-index: 1;
+}
+button a{
+  color: black;
+  font: bold 20px var(--FONT-FAMILY);
+  text-decoration: none;
+}
+button::before{
+  content: "";
+  position: absolute;
+  top: -100%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: white;
+  transition: top 0.4s ease-in-out;
+  z-index: -1;
+}
+button:hover::before{
+  top: 0;
+}
+button:hover{
+  color: black;
+  border-color: whitesmoke;
+}
+.closure{
+  color: #fff;
+  font: 500 20px var(--FONT-FAMILY);
+}
+.icons{
+  display: flex;
+  place-content: center;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+  gap: 30px;
+  
+}
+footer{
+  text-align: center;
 }
