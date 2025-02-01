@@ -1,4 +1,6 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Smooch+Sans:wght@100..900&display=swap');
+
 *,
 *::before,
 *::after{
@@ -6,26 +8,28 @@
   padding:0;
   box-sizing: border-box;
 }
+html{
+  scroll-behavior: smooth;
+}
 body{
   background-color: #000;
 }
 :root{
-  --FONT-FAMILY : "Smooch Sans", serif;
-
+  --FONT-FAMILY :"Smooch Sans", serif;
+  --THEME-COLOR: #fff;
 }
 .head-container{
   display: flex;
   position: sticky;
 }
 .logo{
-  width: 250px;
-  height: 350px;
+  width: 200px;
+  height: 300px;
   transform: translateY(-110px);
-  margin-left: 1rem;
+  margin-left: 2.5rem;
   z-index: 2000;
 }
 ul{
-  
   list-style: none;
   margin-top: 1rem;
   display: flex;
@@ -34,11 +38,11 @@ ul{
 }
  nav a{
   text-decoration: none;
-  color: #fff;
+  color: var(--THEME-COLOR);
   transition: color 0.3s ease; 
   position: relative;
-  font: bold 1.2rem var(--FONT-FAMILY);
   cursor: pointer;
+  font: bold 1.2rem var(--FONT-FAMILY);
 }
  nav a::after{
   content: '';
@@ -84,7 +88,7 @@ ul{
 .menu-toggle span{
   width:100%;
   height: 1px;
-  background: white;
+  background: var(--THEME-COLOR);
   transition: all 0.3s ease-in-out;
 }
 .menu{
@@ -107,10 +111,10 @@ ul{
 }
 .menu ul li {
   margin: 15px 0;
-  border-bottom: 0.1px solid whitesmoke;
+  border-bottom: 0.1px solid var(--THEME-COLOR);
 }
 .menu ul li a {
-  color: white;
+  color: var(--THEME-COLOR);
   text-decoration: none;
   font: 15px var(--FONT-FAMILY);
 }
@@ -132,14 +136,14 @@ ul{
   rotate(-45deg);
 }
 .home-page p{
- color: #fff;
+ color: var(--THEME-COLOR);
   text-align: center;
   font: 400 60px var(--FONT-FAMILY);
   transform: translateY(-150px);
   animation: fadeIN 3s ease-in 1;
 }
 .home-page pre{
-  color: #fff;
+  color: var(--THEME-COLOR);
   text-align: center;
   font: 400 1.2rem var(--FONT-FAMILY);
   transform: translateY(-130px);
@@ -183,7 +187,7 @@ button::before{
   left: 0;
   width: 100%;
   height: 100%;
-  background: white;
+  background: var(--THEME-COLOR);
   transition: top 0.4s ease-in-out;
   z-index: -1;
 }
@@ -192,11 +196,104 @@ button:hover::before{
 }
 button:hover{
   color: black;
-  border-color: whitesmoke;
+  border-color: var(--THEME-COLOR);
+}
+.menu-item{
+     color: var(--THEME-COLOR);
+     font: bold 1.8rem var(--FONT-FAMILY);
+     transform: translateX(300px);
+     cursor: pointer;
+     position: relative;
+     padding: 10px 20px;
+     z-index: 1000;
+     display: inline-block;
+}
+.dropdown{
+  position: fixed;
+  top: 100%;
+  left: -16rem;
+  width: 50vw;
+  height: 30vh;
+ background: var(--THEME-COLOR);
+  border: 1px solid rgba(37, 37, 37, 0.9) ;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  border-radius: 10px;
+  opacity: 0;
+  z-index: 10000;
+  visibility: hidden;
+  transform-origin: top;
+  transform: scaleY(0);
+  transition: transform 0.4s ease-in-out,
+  opacity 0.3s ease-in-out;
+}
+.dropdown a{
+  color: #000;
+}
+.dropdown a:hover{
+  text-decoration: underline;
+}
+.menu-item:hover .dropdown{
+  opacity: 1;
+  visibility: visible;
+  transform: scaleY(1);
+}
+.model-head
+{
+  color: var(--THEME-COLOR);
+  font: bold 2rem var(--FONT-FAMILY);
+  text-align: center;
 }
 .closure{
-  color: #fff;
+  color: var(--THEME-COLOR);
   font: 500 20px var(--FONT-FAMILY);
+}
+.main-info{
+  color: var(--THEME-COLOR);
+  font: 500 20px var(--FONT-FAMILY);
+  margin-right: 2rem;
+}
+.rocket-container{
+    display: flex;
+}
+.rocket{
+  margin: 1rem;
+  border: 1px solid rgba(46, 46, 46, 0.5);
+  position: relative;
+  display: inline-block;
+}
+.rocket-button{
+  position: absolute;
+  bottom: 10px;
+  width: 50%;
+  left: 50%;
+  transform: translateX(-50%);
+  cursor: pointer;
+  color: var(--THEME-COLOR);
+}
+.rocket-name{
+  position: absolute;
+  text-align: center;
+  font: bold 1.5rem var(--FONT-FAMILY);
+  width: 50%;
+  left: 50%;
+  transform: translateX(-50%);
+  cursor: pointer;
+  color: var(--THEME-COLOR);
+}
+.name{
+  position: absolute;
+  text-align: center;
+  top: 24.5rem;
+  font: bold 1.5rem var(--FONT-FAMILY);
+  width: 50%;
+  left: 50%;
+  transform: translateX(-50%);
+  cursor: pointer;
+  color: var(--THEME-COLOR);
 }
 .icons{
   display: flex;
