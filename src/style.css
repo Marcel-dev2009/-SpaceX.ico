@@ -44,6 +44,12 @@ ul{
   cursor: pointer;
   font: bold 1.2rem var(--FONT-FAMILY);
 }
+ol li{
+  margin-left: 1rem;
+  font: 400 1.2rem var(--FONT-FAMILY);
+  text-decoration: none;
+  color: var(--THEME-COLOR);
+}
  nav a::after{
   content: '';
   position: absolute;
@@ -214,7 +220,7 @@ button:hover{
   left: -16rem;
   width: 50vw;
   height: 30vh;
- background: var(--THEME-COLOR);
+  background: var(--THEME-COLOR);
   border: 1px solid rgba(37, 37, 37, 0.9) ;
   display: flex;
   justify-content: center;
@@ -256,33 +262,27 @@ button:hover{
   font: 500 20px var(--FONT-FAMILY);
   margin-right: 2rem;
 }
-.rocket-container{
-    display: flex;
+
+.link{
+  display: flex;
+   flex-wrap: wrap;
+   gap: 10px;
+   margin-bottom: 1.5rem;
 }
-.rocket{
-  margin: 1rem;
-  border: 1px solid rgba(46, 46, 46, 0.5);
+.image{
   position: relative;
-  display: inline-block;
+  display: block;
+
 }
-.rocket-button{
-  position: absolute;
-  bottom: 10px;
-  width: 50%;
-  left: 50%;
-  transform: translateX(-50%);
-  cursor: pointer;
-  color: var(--THEME-COLOR);
+.link-button{
+   position: absolute;
+   bottom: 10px;
+   left: 50%;
+   transform: translateX(-50%);
+   width: 50%;
 }
-.rocket-name{
-  position: absolute;
-  text-align: center;
-  font: bold 1.5rem var(--FONT-FAMILY);
-  width: 50%;
-  left: 50%;
-  transform: translateX(-50%);
-  cursor: pointer;
-  color: var(--THEME-COLOR);
+.rocket-image{
+  display: flex;
 }
 .name{
   position: absolute;
@@ -295,6 +295,19 @@ button:hover{
   cursor: pointer;
   color: var(--THEME-COLOR);
 }
+.crew{
+  display: flex;
+}
+.crew-image{
+   border-radius: 50%;
+   margin-left: 2rem;
+   transition: 0.6s ease-in-out;
+}
+.crew-info{
+   border: 1px solid rgba(36, 35, 35, 0.5);
+   padding: 1.5rem;
+   border-radius: 5px;
+}
 .icons{
   display: flex;
   place-content: center;
@@ -302,6 +315,19 @@ button:hover{
   margin-bottom: 0.5rem;
   gap: 30px;
   
+}
+.flags{
+  border-radius: 2px;
+  transition: 0.6s ease-in-out;
+}
+.flags:hover,
+.crew-image:hover{
+
+   transform: scale(1.1);
+}
+.flags:hover::after,
+.crew-image:hover::after{
+  transition: 0.5s ease-out;
 }
 footer{
   text-align: center;
