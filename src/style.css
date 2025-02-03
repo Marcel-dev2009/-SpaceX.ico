@@ -80,7 +80,7 @@ ol li{
   position: relative;
 }
 .menu-toggle{
-  width:25px;
+  width: 25px;
   height: 15px;
   display:flex;
   flex-direction: column;
@@ -142,11 +142,15 @@ ol li{
   rotate(-45deg);
 }
 .home-page p{
- color: var(--THEME-COLOR);
-  text-align: center;
+  color: var(--THEME-COLOR);
+   text-align: center;
   font: 400 60px var(--FONT-FAMILY);
   transform: translateY(-150px);
   animation: fadeIN 3s ease-in 1;
+}
+.mantra{
+    display: none;
+    font-size: 1rem;
 }
 .home-page pre{
   color: var(--THEME-COLOR);
@@ -169,7 +173,6 @@ ol li{
     gap: 1.2rem;
 }
 button{
-
   border: none;
   background-color: rgba(102, 101, 101, 0.5);
   padding: 1rem;
@@ -284,6 +287,11 @@ button:hover{
 .rocket-image{
   display: flex;
 }
+.cta,
+.closure-info{
+  display: none;
+}
+
 .name{
   position: absolute;
   text-align: center;
@@ -331,4 +339,86 @@ button:hover{
 }
 footer{
   text-align: center;
+}
+@media screen and (max-width: 768px) {
+  body{
+    max-width: 100vw;
+    overflow-x: hidden;
+  }
+  .logo{
+    width: 150px;
+    margin-left: 5rem;
+  }
+  .head-menu{
+    display: none;
+  }
+  .nav{
+      margin: 0.6rem 0.5rem;
+      padding:15px;
+  }
+  .menu-toggle{
+    width: 20px;
+    height: 10px;
+    margin-top: 0.7rem;
+  }
+  .home-page p{
+    font: 400 1.7rem var(--FONT-FAMILY);
+    text-align: left;
+    margin-left: 1.5rem;
+  }
+  .home-page pre{
+   display: none;
+  }
+  .mantra{
+    display: block;
+    font-size: 1rem;
+
+  }
+  .menu{
+   background: rgb(44, 44, 44);
+   font-size: 2rem;
+   font-weight: 900;
+   text-shadow: 2px 2px 5px rgba(255, 255, 255, 0.5);
+  }
+  button a{
+    font-size: 1rem;
+    color: var(--THEME-COLOR);
+    font-weight: 400;
+  }
+  .buttons{
+    margin-right: 5rem;
+  }
+  button{
+    width: 30%;
+  }
+   .rta{
+    display: none;
+   }
+   .cta,
+   .closure-info{
+    display: block;
+    font-size: 1rem;
+    margin-right: 4rem;
+   }
+   .closure img{
+    margin-right: 5rem;
+   }
+   .disclaimer{
+    display: none;
+   }
+   .icons{
+    margin-right: 2rem;
+   }
+   footer p{
+      font-size: 1rem;
+   }
+ /*  }
+ 
+  .home-page pre{
+    font: 400 1rem var(--FONT-FAMILY);
+    margin-right: 1rem;
+    white-space: wrap;
+
+  } */
+
 }
