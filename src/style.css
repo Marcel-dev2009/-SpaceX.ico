@@ -399,7 +399,6 @@ footer{
     font-size: 1rem;
     color: var(--THEME-COLOR);
     font-weight: 400;
-    color: var(--TEXT-COLOR);
   }
   .buttons{
     margin-right: rem;
@@ -407,7 +406,7 @@ footer{
   }
   button{
     width: 40%;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(83, 81, 81, 0.5);
   }
    .rta{
     display: none;
