@@ -410,11 +410,16 @@ footer{
    .rta{
     display: none;
    }
-   .cta,
-   .closure-info{
+   .cta{
+   
     display: block;
     font-size: 1rem;
     text-align: center;
+   }
+   .closure-info{
+    display: block;
+    font-size: 1rem;
+    margin-left: 1rem;
    }
    .closure img{
     margin-right: 5rem;
