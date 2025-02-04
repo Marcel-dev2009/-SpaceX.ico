@@ -386,7 +386,7 @@ footer{
     font-weight: 400;
   }
   .buttons{
-    margin-right: 4rem;
+    margin-right: rem;
   }
   button{
     width: 40%;
@@ -398,7 +398,7 @@ footer{
    .closure-info{
     display: block;
     font-size: 1rem;
-    margin-right: 4rem;
+    text-align: center;
    }
    .closure img{
     margin-right: 5rem;
@@ -407,7 +407,7 @@ footer{
     display: none;
    }
    .icons{
-    margin-right: 2.5rem;
+    margin-right: 1.5rem;
    }
    footer p{
       font-size: 1rem;
