@@ -378,7 +378,6 @@ footer{
     font: 400 1.7rem var(--FONT-FAMILY);
     text-align: left;
     margin-left: 1.5rem;
-    color: var(--TEXT-COLOR);
   }
   .home-page pre{
    display: none;
