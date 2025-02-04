@@ -110,12 +110,13 @@ ol li{
 .menu{
   position: fixed;
   top:0;
-  right:-250px;
+  right:-250rem;
   width: 250px;
   height: 100vh;
   background: black;
    transition: right 0.5s ease-in-out;
   display: flex;
+  padding: 1rem;
   align-items: center;
   padding-left: 20px;
 }
@@ -306,7 +307,7 @@ button:hover{
   position: absolute;
   text-align: center;
   top: 24.5rem;
-  font: bold 1.5rem var(--FONT-FAMILY);
+  font: bold 20px var(--FONT-FAMILY);
   width: 50%;
   left: 50%;
   transform: translateX(-50%);
@@ -349,6 +350,88 @@ button:hover{
 }
 footer{
   text-align: center;
+}
+
+@media screen and (max-width:1024px) {
+  :root{
+    --TEXT-COLOR : gray;
+  }
+  body{
+    max-width: 100vw;
+    overflow-x: hidden;
+  }
+  .logo{
+    width: 150px;
+    margin-left: 45%;
+  }
+  .head-menu{
+    display: none;
+  }
+  .nav{
+      margin: 0.6rem 15rem;
+      padding:15px;
+  }
+  .menu-toggle{
+    width: 20px;
+    height: 10px;
+    margin-top: 0.7rem;
+  }
+  .home-page p{
+    font: 400 1.7rem var(--FONT-FAMILY);
+     text-align: center;
+  }
+  .home-page pre{
+   display: none;
+  }
+  .mantra{
+    display: block;
+    font-size: 1rem;
+
+  }
+  .menu{
+   background: rgba(61, 57, 184, 0.589);
+   font-weight: 900;
+   text-shadow: 2px 2px 5px rgba(255, 255, 255, 0.5);
+  }
+
+  button a{
+    font-size: 1rem;
+    color: var(--THEME-COLOR);
+    font-weight: 400;
+  }
+  button{
+    width: 40%;
+    background-color: rgba(83, 81, 81, 0.979);
+  }
+  button:hover::before{
+    display: none;
+  }
+   .rta{
+    display: none;
+   }
+   .cta{
+   
+    display: block;
+    font-size: 2rem;
+    text-align: center;
+   }
+   .closure-info{
+    display: block;
+    font-size: 1.5rem;
+    margin-left:2rem;
+   }
+   .closure img{
+    margin-left: 0.5rem;
+   }
+   .disclaimer{
+    display: none;
+   }
+   .icons{
+    margin-right: 1rem;
+   }
+   footer p{
+      font-size: 1rem;
+   }
 }
 @media screen and (max-width: 768px) {
   :root{
@@ -405,7 +488,10 @@ footer{
   }
   button{
     width: 40%;
-    background-color: rgba(83, 81, 81, 0.5);
+    background-color: rgba(83, 81, 81, 0.979);
+  }
+  button:hover::before{
+    display: none;
   }
    .rta{
     display: none;
@@ -419,7 +505,7 @@ footer{
    .closure-info{
     display: block;
     font-size: 1rem;
-    margin-left: 1rem;
+    margin-left: 1.15rem;
    }
    .closure img{
     margin-right: 5rem;
@@ -428,7 +514,7 @@ footer{
     display: none;
    }
    .icons{
-    margin-right: 1rem;
+    margin-right: 0.8rem;
    }
    footer p{
       font-size: 1rem;
@@ -442,4 +528,4 @@ footer{
 
   } */
 
-}
+} 
