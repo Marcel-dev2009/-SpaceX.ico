@@ -159,7 +159,8 @@ ol li{
   transform: translateY(-150px);
   animation: fadeIN 3s ease-in 1;
 }
-.mantra{
+.mantra,
+.query{
     display: none;
     font-size: 1rem;
 }
@@ -299,7 +300,9 @@ button:hover{
   display: flex;
 }
 .cta,
-.closure-info{
+.closure-info,
+.query-intro,
+.rocket-section{
   display: none;
 }
 
@@ -348,9 +351,12 @@ button:hover{
 .crew-image:hover::after{
   transition: 0.5s ease-out;
 }
+
 footer{
   text-align: center;
 }
+
+
 
 @media screen and (max-width:1024px) {
   :root{
@@ -368,7 +374,7 @@ footer{
     display: none;
   }
   .nav{
-      margin: 0.6rem 15rem;
+      margin: 0.6rem 13rem;
       padding:15px;
   }
   .menu-toggle{
@@ -507,10 +513,40 @@ footer{
     font-size: 1rem;
     margin-left: 1.15rem;
    }
+/*     New items */
+   .query{
+    display: block;
+     transform: translateX(-130px);
+     color: var(--THEME-COLOR);
+   }
+   .rocket-section{
+    display: block;
+     margin-left: 8rem;
+    transform: translateY(-200px);
+    color: var(--THEME-COLOR);
+   }
+   .model-head{
+      display: none;
+   }
+   .query-intro{
+    display: block;
+    line-height: 1.6;
+    transform: translateY(-200px);
+    font-size: 1rem;
+    margin-left: 2rem;
+   }
+   i.mage{
+    width: 200px;
+   }
+   
    .closure img{
     margin-right: 5rem;
    }
-   .disclaimer{
+   .disclaimer,.menu-item{
+    display: none;
+   }
+ 
+   .catlog-intro{
     display: none;
    }
    .icons{
@@ -519,13 +555,16 @@ footer{
    footer p{
       font-size: 1rem;
    }
- /*  }
- 
-  .home-page pre{
-    font: 400 1rem var(--FONT-FAMILY);
-    margin-right: 1rem;
-    white-space: wrap;
+/*    .menu-item{
+    color: var(--THEME-COLOR);
+    font: bold 1.8rem var(--FONT-FAMILY);
+    transform: translateX(300px);
+    cursor: pointer;
+    position: relative;
+    padding: 10px 20px;
+    z-index: 1000;
+    display: inline-block;
+} */
 
-  } */
 
 } 
