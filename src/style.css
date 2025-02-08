@@ -547,7 +547,7 @@ footer{
     flex-direction: row-reverse;
    }
    .reverse-image{
-     left: -2rem;
+     left: -4rem;
      overflow-x: hidden;
    }
   .reverse-info{
@@ -567,7 +567,7 @@ footer{
    }
    .rocket-info{
     line-height: 1.6;
-    transform: translateY(-350px);
+    transform: translateY(-286px);
     overflow-x: hidden;
     font-size: 1rem;
     margin-left: 1rem;
