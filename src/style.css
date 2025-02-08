@@ -547,7 +547,7 @@ footer{
     flex-direction: row-reverse;
    }
    .reverse-image{
-     left: -5.2rem;
+     left: -4rem;
    }
   .reverse-info{
     display: block;
@@ -555,7 +555,7 @@ footer{
    font-size: 1rem;
    line-height: 1.6;
    margin-bottom: 10rem;
-   transform: translateX(280px);
+   transform: translateX(300px);
    white-space: nowrap;
   }
    .image{
