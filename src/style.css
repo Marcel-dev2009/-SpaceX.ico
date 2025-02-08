@@ -506,7 +506,7 @@ footer{
    
     display: block;
     font-size: 1rem;
-    text-align: center;
+    margin-left: 2.5rem;
    }
    .closure-info{
     display: block;
@@ -540,7 +540,7 @@ footer{
    }
    
    .closure img{
-    margin-right: 5rem;
+    margin-right: 3rem;
    }
    .disclaimer,.menu-item{
     display: none;
