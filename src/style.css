@@ -517,7 +517,7 @@ footer{
 /*     New items */
    .query{
       display: block;
-     transform: translateX(-140px);
+     transform: translateX(-145px);
      color: var(--THEME-COLOR);
      white-space: nowrap;
    
@@ -547,17 +547,28 @@ footer{
     flex-direction: row-reverse;
    }
    .reverse-image{
-     left: -4rem;
-     overflow-x: hidden;
+     left: -5rem;
+   }
+   .heavy-image{
+    left: -7rem;
    }
   .reverse-info{
-    display: block;
+  display: block;
    width: 100%;
    font-size: 1rem;
    line-height: 1.6;
    margin-bottom: 10rem;
-   transform: translateX(326px);
+   transform: translateX(295px);
    white-space: nowrap;
+  }
+  .heavy-info{
+    display: block;
+    width: 100%;
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 10rem;
+    transform: translateX(180px);
+    white-space: nowrap;
   }
    .image{
     transform: translateY(-200px);
@@ -568,7 +579,6 @@ footer{
    .rocket-info{
     line-height: 1.6;
     transform: translateY(-286px);
-    overflow-x: hidden;
     font-size: 1rem;
     margin-left: 1rem;
    }
