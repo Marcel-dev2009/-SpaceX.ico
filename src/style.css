@@ -581,6 +581,7 @@ footer{
   .suit-info,
   .link-info{
      display: block;
+     white-space: nowrap;
      margin-top: 7rem;
   }
   .rocket-categories{
