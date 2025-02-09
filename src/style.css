@@ -303,7 +303,9 @@ button:hover{
 .closure-info,
 .query-intro,
 .rocket-section,
-.reverse-info{
+.reverse-info,
+.heavy-info,
+.responsive-suit{
   display: none;
 }
 
@@ -530,7 +532,8 @@ footer{
     color: var(--THEME-COLOR);
    }
    .model-head,
-   .text{
+   .text,
+   .suit-image{
       display: none;
    }
    .query-intro{
@@ -570,6 +573,15 @@ footer{
     margin-bottom: 10rem;
     transform: translateX(210px);
     white-space: nowrap;
+  }
+  .suit-info{
+     margin-top: 7rem;
+     margin-right: 5rem;
+  }
+  .responsive-suit{
+    display: block;
+    transform: translateY(-200px);
+    margin-left: 2rem;
   }
    .image{
     transform: translateY(-200px);
