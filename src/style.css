@@ -305,7 +305,8 @@ button:hover{
 .rocket-section,
 .reverse-info,
 .heavy-info,
-.responsive-suit{
+.responsive-suit,
+.link-info{
   display: none;
 }
 
@@ -577,7 +578,9 @@ footer{
     transform: translateX(210px);
     white-space: nowrap;
   }
-  .suit-info{
+  .suit-info,
+  .link-info{
+     display: block;
      margin-top: 7rem;
   }
   .rocket-categories{
