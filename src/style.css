@@ -551,14 +551,14 @@ footer{
      left: -2.4em;
    }
    .heavy-image{
-    left: -5.3rem;
+    left: -5.5rem;
    }
   .reverse-info{
   display: block;
    width: 100%;
    font-size: var(--QUERY-FONT);
    line-height: 1.6;
-   margin-bottom: 10rem;
+   margin-bottom: 15rem;
    transform: translateX(320px);
    white-space: nowrap;
   }
