@@ -621,7 +621,8 @@ footer{
     display: none;
    }
  
-   .catlog-intro{
+   .catlog-intro,
+   .query-sub{
     display: none;
    }
    .icons{
