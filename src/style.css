@@ -578,11 +578,14 @@ footer{
     transform: translateX(210px);
     white-space: nowrap;
   }
-  .suit-info,
-  .link-info{
-     display: block;
-     white-space: nowrap;
+  .suit-info{
      margin-top: 7rem;
+
+  }
+  .link-info{
+    display: block;
+    margin-top: 5rem;
+     white-space: nowrap;
   }
   .rocket-categories{
     transform: translateX(-210px);
