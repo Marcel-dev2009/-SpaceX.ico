@@ -576,7 +576,9 @@ footer{
   }
   .suit-info{
      margin-top: 7rem;
-    
+  }
+  .rocket-categories{
+    transform: translateX(-210px);
   }
   .responsive-suit{
     display: block;
