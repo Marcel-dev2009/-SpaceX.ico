@@ -443,6 +443,7 @@ footer{
 @media screen and (max-width: 768px) {
   :root{
     --TEXT-COLOR : gray;
+    --QUERY-FONT : 1rem;
   }
   body{
     max-width: 100vw;
@@ -474,7 +475,7 @@ footer{
   }
   .mantra{
     display: block;
-    font-size: 1rem;
+    font-size: var(--QUERY-FONT);
 
   }
   .menu{
@@ -485,7 +486,7 @@ footer{
   }
 
   button a{
-    font-size: 1rem;
+    font-size: var(--QUERY-FONT);
     color: var(--THEME-COLOR);
     font-weight: 400;
   }
@@ -506,12 +507,12 @@ footer{
    .cta{
    
     display: block;
-    font-size: 1rem;
+    font-size: var(--QUERY-FONT);
     margin-left: 2.5rem;
    }
    .closure-info{
     display: block;
-    font-size: 1rem;
+    font-size: var(--QUERY-FONT);
     margin-left: 1.15rem;
    }
 /*     New items */
@@ -536,7 +537,7 @@ footer{
     display: block;
     line-height: 1.6;
     transform: translateY(-200px);
-    font-size: 1rem;
+    font-size:var(--QUERY-FONT);
     margin-left: 2rem;
     margin-top: 0.5em;
    }
@@ -547,24 +548,24 @@ footer{
     flex-direction: row-reverse;
    }
    .reverse-image{
-     left: -3.5rem;
+     left: -2.7rem;
    }
    .heavy-image{
-    left: -5rem;
+    left: -5.3rem;
    }
   .reverse-info{
   display: block;
    width: 100%;
-   font-size: 1rem;
+   font-size: var(--QUERY-FONT);
    line-height: 1.6;
    margin-bottom: 10rem;
-   transform: translateX(295px);
+   transform: translateX(298px);
    white-space: nowrap;
   }
   .heavy-info{
     display: block;
     width: 100%;
-    font-size: 1rem;
+    font-size:var(--QUERY-FONT);
     line-height: 1.6;
     margin-bottom: 10rem;
     transform: translateX(210px);
@@ -579,7 +580,7 @@ footer{
    .rocket-info{
     line-height: 1.6;
     transform: translateY(-286px);
-    font-size: 1rem;
+    font-size: var(--QUERY-FONT);
     margin-left: 1rem;
    }
    .closure img{
@@ -596,7 +597,7 @@ footer{
     margin-right: 0.5rem;
    }
    footer p{
-      font-size: 1rem;
+      font-size: var(--QUERY-FONT);
    }
 /*    .menu-item{
     color: var(--THEME-COLOR);
