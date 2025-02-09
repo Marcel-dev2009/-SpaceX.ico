@@ -615,12 +615,13 @@ footer{
     margin-left: 1rem;
    }
    .closure img{
+    display: block;
+    width: 180px;
     margin-right: 2rem;
    }
    .disclaimer,.menu-item{
     display: none;
    }
- 
    .catlog-intro,
    .query-sub{
     display: none;
@@ -631,16 +632,5 @@ footer{
    footer p{
       font-size: var(--QUERY-FONT);
    }
-/*    .menu-item{
-    color: var(--THEME-COLOR);
-    font: bold 1.8rem var(--FONT-FAMILY);
-    transform: translateX(300px);
-    cursor: pointer;
-    position: relative;
-    padding: 10px 20px;
-    z-index: 1000;
-    display: inline-block;
-} */
-
 
 } 
