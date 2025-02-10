@@ -735,7 +735,7 @@ footer{
     display: block;
     display: flex;
     transform: translateY(-300px);
-    margin-left: 0.5rem;
+    margin-left: 0.2rem;
    }
    .query-icons{
     display: flex;
@@ -743,7 +743,7 @@ footer{
     margin-left: 6rem;
    }
    .query-text{
-    margin-left: 5rem;
+    margin-left: 6rem;
    }
    .closure img{
     margin-right: 2rem;
