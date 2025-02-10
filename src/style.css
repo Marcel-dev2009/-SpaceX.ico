@@ -533,6 +533,7 @@ footer{
         display: flex;
         gap: 1rem;
         margin-left: 3rem;
+        overflow-y: hidden;
       }
       .closure img{
         margin-right: 2rem;
