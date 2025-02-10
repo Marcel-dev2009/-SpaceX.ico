@@ -651,7 +651,7 @@ footer{
    }
    .about-head{
     display: block;
-    transform: translateX(-200px);
+    transform: translateX(-193px);
     
    }
    .crew-reverse{
@@ -674,7 +674,7 @@ footer{
     width: 150px;
     height: 100px;
     display: flex;
-    margin-left: 2rem;
+    margin-left: 1rem;
    }
 /*     New items */
    .query{
