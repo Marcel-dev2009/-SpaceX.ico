@@ -5,6 +5,15 @@
 ## Description  
 
 This is a fun and creative project that presents a **fake** SpaceX website, showcasing fictional missions, rockets, and other space-related content. It's designed to entertain space enthusiasts and provide an immersive user experience that captures the excitement of space exploration.  
+# Development
+   ![Animated GIF](https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExMWl2YzAyY2Fic2s3bDEzbGppNmhzeGFmN3czaTdrZXU5em5xNGJoeSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/iYLfL5rdLiok70E9AV/giphy.gif)
+
+# Technologies Used
+![HTML](https://img.shields.io/badge/Code-HTML-orange) 
+
+![CSS](https://img.shields.io/badge/Code-CSS-blue)  
+
+![JavaScript](https://img.shields.io/badge/Code-JavaScript-yellow)
 
 ## Features  
 
@@ -12,7 +21,9 @@ This is a fun and creative project that presents a **fake** SpaceX website, show
 - **Rocket Gallery:** View images and details of imaginary rockets created for this project.  
 - **Interactive Timeline:** Experience a fun timeline of fake launch events and milestones.  
 - **User Engagement:** Simple forms for users to submit their ideas for future space missions (fictional, of course!).  
+ # My Project  
 
+![My GIF](https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExZ2Q0b3Nvc3h0aHhobnY1bDVxbnQyb3QxdXAzNmJ2cjZrbDc4cmlmbyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/xfuIOBNnSjY0N2ZyGj/giphy.gif)
 ## Installation  
 
 Follow these steps to set up and run the project locally:  
