@@ -8,6 +8,13 @@ This is a fun and creative project that presents a **fake** SpaceX website, show
 # Development
    ![Animated GIF](https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExMWl2YzAyY2Fic2s3bDEzbGppNmhzeGFmN3czaTdrZXU5em5xNGJoeSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/iYLfL5rdLiok70E9AV/giphy.gif)
 
+# Technologies Used
+![HTML](https://img.shields.io/badge/Code-HTML-orange) 
+
+![CSS](https://img.shields.io/badge/Code-CSS-blue)  
+
+![JavaScript](https://img.shields.io/badge/Code-JavaScript-yellow)
+
 ## Features  
 
 - **Fictional Missions:** Explore a list of made-up SpaceX missions with detailed descriptions and launch dates.  
