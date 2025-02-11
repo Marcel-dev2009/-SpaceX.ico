@@ -5,7 +5,7 @@
 ## Description  
 
 This is a fun and creative project that presents a **fake** SpaceX website, showcasing fictional missions, rockets, and other space-related content. It's designed to entertain space enthusiasts and provide an immersive user experience that captures the excitement of space exploration.  
-
+# Development
    ![Animated GIF](https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExMWl2YzAyY2Fic2s3bDEzbGppNmhzeGFmN3czaTdrZXU5em5xNGJoeSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/iYLfL5rdLiok70E9AV/giphy.gif)
 
 ## Features  
