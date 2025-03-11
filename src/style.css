@@ -11,13 +11,14 @@ html{
 }
 body{
   background-color: #000;
+  overflow-x: hidden;
 }
 .content.menu-open{
-    opacity: 0.3;
+    opacity: 0.2;
     transition: opacity 0.5s ease-in-out;
    }
 .container.menu-open{
-    opacity: 0.4;
+    opacity: 0.2;
     transition: opacity 0.5s ease-in-out;
    }
  /*   .counter,
@@ -390,13 +391,20 @@ button:hover{
    padding: 1.5rem;
    border-radius: 5px;
 }
+
 .icons{
   display: flex;
   place-content: center;
   margin-top: 1.5rem;
   margin-bottom: 1rem;
   gap: 10rem;
+  display: none;
   
+}
+.iconAnime{
+  display: flex;
+ margin-left: 7rem;
+ justify-content: space-between;
 }
 .flags{
   margin-left: 33rem;
