@@ -219,7 +219,7 @@
         display: none;
       }
       .animate{
-        transform: translateX(-190px);
+         transform: translateX(10.5px);
         margin-top: 1rem;
         margin-bottom: 2rem;
      }
